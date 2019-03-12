@@ -12,6 +12,7 @@ const items = [
   { name: "Home", path: "/", exact: true, icon: "home" },
   { name: "About", path: "/about/", exact: true, icon: "info circle" },
   { name: "Blog", path: "/blog/", exact: false, icon: "newspaper" },
+  { name: "Products", path: "/products/", exact: true},
 ];
 
 const LinkStub: any = (props: any) =>
