@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `My website`,
+    title: `Function Hair Care`,
     googleVerification: `abcdefz`,
     disqus: `gatsby-typescript`
   },
