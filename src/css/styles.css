@@ -28,7 +28,8 @@
 }
 
 .ui.vertical.stripe {
-  padding: 8em 0;
+  padding-top: 4em;
+  padding-bottom: 2em;
 }
 
 .ui.vertical.stripe h3 {

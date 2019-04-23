@@ -25,11 +25,12 @@ const IndexPage = (props: LayoutProps) =>
       </Container>
       <Segment>
       <Carousel wrapAround={true} autoplay={true} heightMode={null} initialSlideHeight={600}>
+      <img src="/static/banner/blossom18.jpg" ></img>
       <img src="/static/banner/img4.jpg" ></img>
+      <img src="/static/banner/ericka28.jpg" ></img>
       <img src="/static/banner/img5.jpg" ></img>
-      <img src="/static/banner/img1.jpg" ></img>
       <img src="/static/banner/img2.jpg" ></img>
-      <img src="/static/banner/img3.jpg" ></img>
+      <img src="/static/banner/img1.jpg" ></img>
       <img src="/static/banner/img6.jpg" ></img>
       </Carousel>
       </Segment>
@@ -43,10 +44,12 @@ const IndexPage = (props: LayoutProps) =>
             <Header>Function with Us</Header>
             <p>
               Our line of beauty products includes:
-              <ul>
-                <li>f(1) Hair Oil - a soothing mixture of vanilla and lavender</li>
-                <li>f(2) Hair Oil - a subtle marriage of vanilla and cedarwood</li>
-              </ul>
+            </p>
+            <p>
+              f(1) Hair Oil - a soothing mixture of vanilla and lavender
+            </p>
+            <p>
+              f(2) Hair Oil - a subtle marriage of vanilla and cedarwood
             </p>
             <p>
               With more scents on the way and seasonal favorites available at a moments notice, f(x) 
@@ -66,6 +69,55 @@ const IndexPage = (props: LayoutProps) =>
               Wavy, straight, curly, coily - no matter your hair type, we're confident that our line of hair 
               oils will amplify and illuminate your natural beauty. 
                 </p>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
+    </Segment>
+
+    <Segment vertical className="stripe alternate feature">
+      <Grid columns="3" textAlign="center" divided relaxed stackable className="container">
+        <Grid.Row>
+          <Grid.Column>
+            <Header icon>
+              <Icon name="wizard"></Icon>
+              {/* A kind of magic! */}
+            </Header>
+            <img src="/static/other/jen.jpg" ></img>
+            <p></p>
+            <p>
+            “The oil was great! It smelled really good and it helped hydrate my hair. I don’t know if it made a giant
+             impact on the health/strength of my hair, but it works just as well as other oils I have! I would use 
+             it again!”
+            </p>
+            <p>            ––Agape </p>
+          </Grid.Column>
+          <Grid.Column>
+            <Header icon>
+              <Icon name="wizard"></Icon>
+              {/* A kind of magic! */}
+            </Header>
+            <img src="/static/other/jenerick.jpg" ></img>
+            <p></p>
+            <p>
+            “I use Fx hair oil to reduce the frizziness my hair. My hair is damaged from heat and hair dye,
+            so I’ve been able to restore the shine my hair once had! The amount of product you get lasts a 
+            long time, so you are getting a really great deal. I have the lavender scented one and the scent 
+            isn’t overpowering and actually reduces quickly as your hair dries. Overall I recommend this product!”
+            </p>
+            <p>            ––Allesandra </p>
+          </Grid.Column>
+          <Grid.Column>
+            <Header icon>
+              <Icon name="wizard"></Icon>
+              {/* A kind of magic! */}
+            </Header>
+            <img src="/static/other/ericka.jpg" ></img>
+            <p></p>
+            <p>
+            “I find that it has definitely reduced frizz in my hair, a little bit goes a long way, and the
+             smell is really pleasant!”
+            </p>
+            <p>            ––Ran Ran</p>
           </Grid.Column>
         </Grid.Row>
       </Grid>
