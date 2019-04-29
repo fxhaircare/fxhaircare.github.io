@@ -21,7 +21,9 @@ const IndexPage = (props: LayoutProps) =>
       />
       <Container text>
         <Header inverted as="h1">f(x) beauty</Header>
-        <Button primary size="huge">Shop Now</Button>
+        <a href="https://www.facebook.com/FxHaircare/"><img src="http://drive.google.com/uc?export=view&id=1SsqBjmREL9r7sXhhsSOxeGXJjAB2n9V4" alt="f(x) Facebook Page" /></a>
+        <a href="https://www.instagram.com/fx_haircare/"><img src="http://drive.google.com/uc?export=view&id=1C0nHWMuzhvOrdJw3QjrfcI4M71vdzCBn" alt="f(x) Instagram" /></a>
+        <a href="mailto:fx.haircare.seattle@gmail.com"><img src="http://drive.google.com/uc?export=view&id=1iTsVLF_PyKC5O5nHT1AfpFah0qy1E8Gn" alt="Email Us" /></a>
       </Container>
       <Segment>
       <Carousel wrapAround={true} autoplay={true} heightMode={null} initialSlideHeight={600}>
