@@ -49,9 +49,9 @@ const Layout = (props: LayoutProps) => {
           {/* Footer */}
           <Segment inverted vertical style={{ position: "absolute", bottom: 0, width: "100%" }}>
             <Container textAlign="center">
-              <a href="https://www.facebook.com/FxHaircare/"><img src="/static/facebook.png" alt="f(x) Facebook Page" style={{margin: '10px', width: '64px'}} /></a>
-              <a href="https://www.instagram.com/fx_haircare/"><img src="/static/instagram.png" alt="f(x) Instagram" style={{margin: '10px', width: '64px'}} /></a>
-              <a href="mailto:fx.haircare.seattle@gmail.com"><img src="/static/email.png" alt="Email Us" style={{margin: '10px', width: '64px'}} /></a>
+              <a href="https://www.facebook.com/FxHaircare/"><img src="/static/facebook.png" alt="f(x) Facebook Page" style={{margin: '5px', width: '32px'}} /></a>
+              <a href="https://www.instagram.com/fx_haircare/"><img src="/static/instagram.png" alt="f(x) Instagram" style={{margin: '5px', width: '32px'}} /></a>
+              <a href="mailto:fx.haircare.seattle@gmail.com"><img src="/static/email.png" alt="Email Us" style={{margin: '5px', width: '32px'}} /></a>
             </Container>
           </Segment>
         </Sidebar.Pusher>
