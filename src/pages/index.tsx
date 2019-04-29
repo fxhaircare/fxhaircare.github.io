@@ -21,9 +21,6 @@ const IndexPage = (props: LayoutProps) =>
       />
       <Container text>
         <Header inverted as="h1">f(x) beauty</Header>
-        <a href="https://www.facebook.com/FxHaircare/"><img src="/static/facebook.jpg" alt="f(x) Facebook Page" /></a>
-        <a href="https://www.instagram.com/fx_haircare/"><img src="/static/instagram.jpg" alt="f(x) Instagram" /></a>
-        <a href="mailto:fx.haircare.seattle@gmail.com"><img src="/static/email.jpg" alt="Email Us" /></a>
       </Container>
       <Segment>
       <Carousel wrapAround={true} autoplay={true} heightMode={null} initialSlideHeight={600}>
