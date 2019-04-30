@@ -129,7 +129,7 @@ export const pageQuery = graphql`
       author {
         id
         bio
-        twitter
+        instagram
         avatar {
           children {
             ... on ImageSharp {
