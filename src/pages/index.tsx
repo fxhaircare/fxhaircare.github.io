@@ -104,6 +104,7 @@ const IndexPage = (props: LayoutProps) =>
             isn’t overpowering and actually reduces quickly as your hair dries. Overall I recommend this product!”
             </p>
             <p>            ––Allesandra </p>
+            <p></p>
           </Grid.Column>
           <Grid.Column>
             <Header icon>
@@ -117,6 +118,7 @@ const IndexPage = (props: LayoutProps) =>
              smell is really pleasant!”
             </p>
             <p>            ––Ran Ran</p>
+            <p></p>
           </Grid.Column>
         </Grid.Row>
       </Grid>
