@@ -6,7 +6,7 @@ author: function haircare
 tags:
   - intro
   - vision
-image: welcoming.png
+image: blog1.png
 draft: true
 ---
 
